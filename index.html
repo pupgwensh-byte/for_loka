@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#120b12" />
+  <title>Maloka — حاجة صغيرة ليكي 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Marhey:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-home">
+  <div class="grain"></div>
+  <div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div>
+  <canvas id="sparkles" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span>Maloka</span>
+    </a>
+    <nav>
+      <a href="#story">حكايتنا</a>
+      <a href="#her">ملوكا بتحب إيه؟</a>
+      <a href="birthday.html" class="nav-cta">عيد الميلاد 🎂</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="eyebrow reveal">من يوم 13 • 04 • 2026</div>
+      <h1 class="reveal delay-1">في ناس بنقابلها صدفة…<br><span>وبتفضل في بالنا أكتر من المتوقع.</span></h1>
+      <p class="lead reveal delay-2">
+        الصفحة دي مش معمولة عشان تقول كلام كبير وخلاص، معمولة عشان كل تفصيلة فيها شبهك:
+        ضحكتك، حبك للسفر، ريحة البرفان الحلوة، والصور اللي بتجمع أحلى اللحظات.
+      </p>
+      <div class="hero-actions reveal delay-3">
+        <a href="#story" class="btn primary">ابدئي من هنا</a>
+        <a href="birthday.html" class="btn ghost">20 سنة × 20 ذكرى</a>
+      </div>
+
+      <div class="hero-card reveal delay-4">
+        <div class="mini-label">وقت معرفتنا</div>
+        <div class="counter-grid">
+          <div><strong id="daysKnown">—</strong><span>يوم</span></div>
+          <div><strong id="hoursKnown">—</strong><span>ساعة</span></div>
+          <div><strong id="minutesKnown">—</strong><span>دقيقة</span></div>
+        </div>
+        <p>ومع إنهم أرقام… بس في ناس بتخلي الوقت نفسه يبقى ليه معنى.</p>
+      </div>
+    </section>
+
+    <section id="story" class="section split">
+      <div class="section-copy reveal">
+        <div class="eyebrow">حكاية صغيرة</div>
+        <h2>13 إبريل 2026<br><span>تاريخ اتكتب من غير ما أخططله.</span></h2>
+        <p>
+          يمكن اليوم ده كان يوم عادي جدًا في شكله، بس بالنسبالي بقى بداية معرفة شخص مختلف.
+          واحدة خفيفة، بتحب اللمة، السفر، المغامرة، والذكريات اللي بتفضل عايشة في الصور.
+        </p>
+        <p>
+          ومن وقتها، بقيت كل ما أعرف عنك تفصيلة جديدة أحس إن في سبب تاني يخليكي غالية عندي.
+          يمكن أنا مش دايمًا بعرف أقول كل اللي جوايا، بس الموقع ده محاولة بسيطة أقول بيها اللي الكلام ساعات بيعجز عنه.
+        </p>
+      </div>
+      <div class="date-art reveal">
+        <span class="small">THE DAY WE MET</span>
+        <strong>13</strong>
+        <span class="month">APRIL</span>
+        <span class="year">2026</span>
+      </div>
+    </section>
+
+    <section id="her" class="section">
+      <div class="section-head reveal">
+        <div class="eyebrow">تفاصيل شبهك</div>
+        <h2>الحاجات اللي بتخلي <span>ملوكا… ملوكا</span></h2>
+      </div>
+
+      <div class="cards-grid">
+        <article class="love-card reveal">
+          <div class="icon">✈️</div>
+          <h3>السفر والمغامرة</h3>
+          <p>طريق جديد، مكان أول مرة، ناس حلوة، وضحك كتير… أهم حاجة الرحلة يبقى فيها حكاية تتقال.</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="icon">📸</div>
+          <h3>الصور والذكريات</h3>
+          <p>عشان أحلى لحظة هي اللي لما ترجعي لها بعد فترة تضحكي وتحسي إنك عيشتيها من جديد.</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="icon">🧴</div>
+          <h3>Skin Care</h3>
+          <p>التفاصيل الصغيرة اللي بتخليكي مرتاحة ومبسوطة، من روتينك لحد آخر لمسة قبل ما تنزلي.</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="icon">🌸</div>
+          <h3>البرافانات</h3>
+          <p>ريحة حلوة تفضل في المكان حتى بعد ما تمشي… تقريبًا زي بعض الناس بالظبط.</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="icon">🍃</div>
+          <h3>ورق عنب</h3>
+          <p>واحد من المرشحين بقوة للمركز الأول… ومش هنفتح نقاش في الحتة دي 😌</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="icon">🔥</div>
+          <h3>مشويات وشاورما</h3>
+          <p>لأن المغامرات محتاجة أكل محترم، واللمة الحلوة ما تكملش من غير أكلة أحلى.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section letter-section">
+      <div class="letter-shell reveal">
+        <span class="tape tape-a"></span><span class="tape tape-b"></span>
+        <div class="eyebrow">من غير مناسبة</div>
+        <h2>بس عايزك تعرفي حاجة…</h2>
+        <p>
+          إنتِ بقيتي من الناس اللي وجودهم بيفرق. يمكن في وقت قليل نسبيًا، بس في حاجات مش بتتقاس بالمدة.
+          في راحة في الكلام، في انتظار لرسالة، في فضول أعرف يومك كان عامل إزاي، وفي ابتسامة بتيجي لوحدها لما اسمك يظهر.
+        </p>
+        <p>
+          إنتِ غالية عندي يا ملوكا، وغالية بطريقة هادية وحقيقية… مش محتاجة مبالغة.
+          أنا بس مبسوط إن الدنيا خلتني أعرفك، ومهما الأيام أخدتنا فين أتمنى تفضلي دايمًا مبسوطة، مرتاحة،
+          وحواليكي الناس اللي يعرفوا قيمتك كويس.
+        </p>
+        <div class="signature">— شخص بيحب وجودك جدًا 🤍</div>
+      </div>
+    </section>
+
+    <section class="section secret-section">
+      <div class="secret-card reveal" id="secretCard">
+        <div class="lock-orbit"></div>
+        <div class="secret-icon">♡</div>
+        <div class="eyebrow">رسالة مش لأي حد</div>
+        <h2>في حاجة مخبية هنا…</h2>
+        <p class="hint">اضغطي ضغطة مطولة على القلب لمدة ثانيتين.</p>
+        <button id="holdHeart" class="hold-heart" aria-label="اضغطي مطولًا لفتح الرسالة">
+          <span>♥</span>
+          <i></i>
+        </button>
+        <div id="secretMessage" class="secret-message" aria-hidden="true">
+          <h3>يا ملوكا…</h3>
+          <p>
+            يمكن أنا كنت بحاول أخلي الموضوع بسيط ومش أقول كل اللي جوايا مرة واحدة،
+            بس الحقيقة إنك بقيتي مميزة بالنسبالي أكتر من مجرد صاحبة.
+          </p>
+          <p>
+            أنا معجب بيكي… بطريقتك، بروحك، بتفاصيلك، وبالحضور اللي عندك من غير ما تحاولي.
+            ومع الوقت الإعجاب ده بقى إحساس أهدى وأعمق، وبقيت أحب وجودك وأفرح بكلامك وأهتم إنك تكوني كويسة.
+          </p>
+          <p>
+            مش بكتب ده عشان أحطك تحت أي ضغط، ولا مستني منك رد معين.
+            أنا بس حبيت تكوني عارفة الحقيقة زي ما هي: <strong>إنتِ غالية عندي جدًا، وأنا بحبك.</strong>
+          </p>
+          <span class="secret-end">13.04.2026 — ولسه الحكاية بتتكتب.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section birthday-tease reveal">
+      <div>
+        <div class="eyebrow">10 • 05 • 2007</div>
+        <h2>20 سنة…<br><span>و20 ذكرى مميزة.</span></h2>
+        <p>20 صورة اختارتهم الذكريات عشان يحكوا جزء صغير من ملوكا… صورة لكل سنة، وكل واحدة فيهم ليها حضور مختلف.</p>
+      </div>
+      <a href="birthday.html" class="btn primary big">افتحي هديتك 🎁</a>
+    </section>
+  </main>
+
+  <div class="music-player" data-audio="main-song.mp3">
+    <button class="music-btn" aria-label="تشغيل أو إيقاف الأغنية">▶</button>
+    <div class="music-copy">
+      <strong>أغنية الصفحة</strong>
+      <span>اضغطي للتشغيل</span>
+    </div>
+    <div class="music-wave"><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+
+  <footer>
+    <span>اتعملت عشان ملوكا وبس 🤍</span>
+    <span>13.04.2026 → ∞</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

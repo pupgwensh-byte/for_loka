@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#160d16" />
+  <title>Maloka — 20 سنة 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Marhey:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-birthday">
+  <div class="grain"></div>
+  <div class="orb orb-1"></div><div class="orb orb-2"></div>
+  <canvas id="sparkles" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span>Maloka</span>
+    </a>
+    <nav>
+      <a href="index.html">الصفحة الأولى</a>
+      <a href="#memories">20 صورة</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="birthday-hero section birthday-cinematic">
+      <div class="floating-photos" aria-hidden="true">
+        <figure class="float-photo fp-1"><img src="assets/photos/memory-06.jpg" alt=""></figure>
+        <figure class="float-photo fp-2"><img src="assets/photos/memory-15.jpg" alt=""></figure>
+        <figure class="float-photo fp-3"><img src="assets/photos/memory-16.jpg" alt=""></figure>
+      </div>
+
+      <div class="birthday-kicker reveal">10 • 05 • 2027</div>
+      <h1 class="reveal delay-1">عشرين سنة<br><span>من ملوكا.</span></h1>
+      <p class="lead reveal delay-2">
+        يوم 10 مايو 2027 مش مجرد عيد ميلاد… ده أول يوم في العشرينات.
+        وعشان الرقم ده مميز، الهدية هنا معمولة على فكرته: <strong>20 سنة × 20 صورة</strong>،
+        وكل صورة جزء صغير من حكاية أكبر بكتير.
+      </p>
+
+      <div class="age-ring reveal delay-3">
+        <svg viewBox="0 0 220 220" aria-hidden="true">
+          <circle cx="110" cy="110" r="92" class="ring-bg"/>
+          <circle cx="110" cy="110" r="92" class="ring-fg"/>
+        </svg>
+        <div class="age-center"><strong>20</strong><span>سنة</span></div>
+      </div>
+
+      <div class="countdown reveal delay-4" id="birthdayCountdown" data-target="2027-05-10T00:00:00">
+        <div><strong id="cdDays">—</strong><span>يوم</span></div>
+        <div><strong id="cdHours">—</strong><span>ساعة</span></div>
+        <div><strong id="cdMinutes">—</strong><span>دقيقة</span></div>
+        <div><strong id="cdSeconds">—</strong><span>ثانية</span></div>
+      </div>
+      <div class="countdown-label reveal delay-4">لحد بداية سنة ملوكا رقم 20 ✨</div>
+    </section>
+
+    <section class="section wish-card-wrap">
+      <div class="wish-card reveal">
+        <div class="eyebrow">رسالة ليوم مميز</div>
+        <h2>كل سنة وإنتِ أغلى وأحلى من السنة اللي قبلها.</h2>
+        <p>
+          يا ملوكا، نفسي العشرين تبدأ معاكي وهي شايلة حاجات كتير حلوة: سفر أكتر، أماكن جديدة،
+          مغامرات تتحكي، صور تفضلي تحبيها مهما عدى عليها وقت، وناس حواليكي يفرحوا لفرحك بجد.
+        </p>
+        <p>
+          من يوم ما عرفتك وأنا كل شوية باكتشف فيكي تفصيلة جديدة بتخليني أقدّر وجودك أكتر.
+          يمكن الوقت اللي فات بينا مش سنين، بس وجودك خد مكان أكبر من حسابات الوقت، وده لوحده كفاية يشرح إنتِ غالية عندي قد إيه.
+        </p>
+        <p>
+          أتمنى السنة دي قلبك يبقى أهدى، ضحكتك أكتر، وكل حاجة نفسك فيها تقرب منك خطوة.
+          وأتمنى لما تفتكري يوم عيد ميلادك العشرين، تفتكري إن في حد كان نفسه يعملك حاجة مخصوص
+          تقولك من غير كلام كتير: <strong>إنتِ مهمة… وإنتِ ليكي مكان مختلف عندي.</strong>
+        </p>
+        <p class="big-wish">ويا رب أكون موجود في ذكريات حلوة كتير لسه جاية 🤍</p>
+      </div>
+    </section>
+
+    <section id="memories" class="section memories-section">
+      <div class="section-head reveal">
+        <div class="eyebrow">20 YEARS • 20 MEMORIES</div>
+        <h2><span>20 صورة</span> لعشرين سنة</h2>
+        <p>
+          مفيش ترتيب أهم من التاني، ومفيش صورة مجرد صورة.
+          كل لقطة هنا جزء من شخصيتك، سفر، ضحكة، لحظة عفوية، أو يوم حبيتي تحتفظي بيه.
+          اضغطي على أي صورة عشان تتفتح لوحدها.
+        </p>
+      </div>
+
+      <div class="memory-intro-line reveal">
+        <span>2007</span><i></i><b>20 لقطة من الحكاية</b><i></i><span>2027</span>
+      </div>
+
+      <div class="cinema-grid">
+        <button class="memory-card reveal featured" type="button" data-lightbox="assets/photos/memory-01.jpg" aria-label="فتح الذكرى رقم 1">
+          <img src="assets/photos/memory-01.jpg" alt="ذكرى ملوكا رقم 1" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">01</span>
+          <span class="memory-caption">ذكرى 01 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-02.jpg" aria-label="فتح الذكرى رقم 2">
+          <img src="assets/photos/memory-02.jpg" alt="ذكرى ملوكا رقم 2" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">02</span>
+          <span class="memory-caption">ذكرى 02 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-03.jpg" aria-label="فتح الذكرى رقم 3">
+          <img src="assets/photos/memory-03.jpg" alt="ذكرى ملوكا رقم 3" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">03</span>
+          <span class="memory-caption">ذكرى 03 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-04.jpg" aria-label="فتح الذكرى رقم 4">
+          <img src="assets/photos/memory-04.jpg" alt="ذكرى ملوكا رقم 4" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">04</span>
+          <span class="memory-caption">ذكرى 04 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-05.jpg" aria-label="فتح الذكرى رقم 5">
+          <img src="assets/photos/memory-05.jpg" alt="ذكرى ملوكا رقم 5" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">05</span>
+          <span class="memory-caption">ذكرى 05 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal featured" type="button" data-lightbox="assets/photos/memory-06.jpg" aria-label="فتح الذكرى رقم 6">
+          <img src="assets/photos/memory-06.jpg" alt="ذكرى ملوكا رقم 6" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">06</span>
+          <span class="memory-caption">ذكرى 06 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-07.jpg" aria-label="فتح الذكرى رقم 7">
+          <img src="assets/photos/memory-07.jpg" alt="ذكرى ملوكا رقم 7" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">07</span>
+          <span class="memory-caption">ذكرى 07 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-08.jpg" aria-label="فتح الذكرى رقم 8">
+          <img src="assets/photos/memory-08.jpg" alt="ذكرى ملوكا رقم 8" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">08</span>
+          <span class="memory-caption">ذكرى 08 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-09.jpg" aria-label="فتح الذكرى رقم 9">
+          <img src="assets/photos/memory-09.jpg" alt="ذكرى ملوكا رقم 9" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">09</span>
+          <span class="memory-caption">ذكرى 09 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-10.jpg" aria-label="فتح الذكرى رقم 10">
+          <img src="assets/photos/memory-10.jpg" alt="ذكرى ملوكا رقم 10" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">10</span>
+          <span class="memory-caption">ذكرى 10 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-11.jpg" aria-label="فتح الذكرى رقم 11">
+          <img src="assets/photos/memory-11.jpg" alt="ذكرى ملوكا رقم 11" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">11</span>
+          <span class="memory-caption">ذكرى 11 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-12.jpg" aria-label="فتح الذكرى رقم 12">
+          <img src="assets/photos/memory-12.jpg" alt="ذكرى ملوكا رقم 12" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">12</span>
+          <span class="memory-caption">ذكرى 12 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-13.jpg" aria-label="فتح الذكرى رقم 13">
+          <img src="assets/photos/memory-13.jpg" alt="ذكرى ملوكا رقم 13" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">13</span>
+          <span class="memory-caption">ذكرى 13 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-14.jpg" aria-label="فتح الذكرى رقم 14">
+          <img src="assets/photos/memory-14.jpg" alt="ذكرى ملوكا رقم 14" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">14</span>
+          <span class="memory-caption">ذكرى 14 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal featured" type="button" data-lightbox="assets/photos/memory-15.jpg" aria-label="فتح الذكرى رقم 15">
+          <img src="assets/photos/memory-15.jpg" alt="ذكرى ملوكا رقم 15" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">15</span>
+          <span class="memory-caption">ذكرى 15 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-16.jpg" aria-label="فتح الذكرى رقم 16">
+          <img src="assets/photos/memory-16.jpg" alt="ذكرى ملوكا رقم 16" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">16</span>
+          <span class="memory-caption">ذكرى 16 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-17.jpg" aria-label="فتح الذكرى رقم 17">
+          <img src="assets/photos/memory-17.jpg" alt="ذكرى ملوكا رقم 17" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">17</span>
+          <span class="memory-caption">ذكرى 17 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-18.jpg" aria-label="فتح الذكرى رقم 18">
+          <img src="assets/photos/memory-18.jpg" alt="ذكرى ملوكا رقم 18" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">18</span>
+          <span class="memory-caption">ذكرى 18 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal" type="button" data-lightbox="assets/photos/memory-19.jpg" aria-label="فتح الذكرى رقم 19">
+          <img src="assets/photos/memory-19.jpg" alt="ذكرى ملوكا رقم 19" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">19</span>
+          <span class="memory-caption">ذكرى 19 <small>من 20</small></span>
+        </button>
+        <button class="memory-card reveal featured" type="button" data-lightbox="assets/photos/memory-20.jpg" aria-label="فتح الذكرى رقم 20">
+          <img src="assets/photos/memory-20.jpg" alt="ذكرى ملوكا رقم 20" loading="lazy" decoding="async">
+          <span class="memory-shade"></span>
+          <span class="memory-no">20</span>
+          <span class="memory-caption">ذكرى 20 <small>من 20</small></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section twenty-lines">
+      <div class="section-head reveal">
+        <div class="eyebrow">20 حاجة حلوة فيكي</div>
+        <h2>وعشرين سبب يخلي الرقم ده <span>شبهك.</span></h2>
+      </div>
+      <div class="reasons-grid reasons-20">
+        <span>01 — روح المغامرة</span><span>02 — حب السفر</span><span>03 — خفة الدم</span><span>04 — حب اللمة</span><span>05 — طريقتك في الكلام</span><span>06 — اهتمامك بالتفاصيل</span><span>07 — ذوقك</span><span>08 — حبك للصور</span><span>09 — طاقتك الحلوة</span><span>10 — عفويتك</span><span>11 — قلبك</span><span>12 — ضحكتك</span><span>13 — حبك للحياة</span><span>14 — جرأتك في التجربة</span><span>15 — إنك ملوكا</span><span>16 — وجودك المريح</span><span>17 — الحكايات اللي بتعمليها</span><span>18 — حبك للروائح الحلوة</span><span>19 — تفاصيلك الصغيرة</span><span>20 — ولسه في أسباب أكتر بكتير</span>
+      </div>
+    </section>
+
+    <section class="section future-note">
+      <div class="future-card reveal">
+        <span class="future-number">20</span>
+        <div>
+          <div class="eyebrow">THE NEXT CHAPTER</div>
+          <h2>العشرين مش نهاية 20 سنة… دي بداية فصل جديد.</h2>
+          <p>
+            خدي معاكي في الفصل ده كل حاجة بتحبيها: السفر، الصحاب، الصور، البرفانات اللي بتحبي ريحتها،
+            المغامرات، واللمة. وسيبي أي حاجة بتتعب قلبك وراكي.
+            أهم حاجة تفضلي إنتِ… بنفس الروح اللي خلت وجودك غالي ومميز.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-wish reveal">
+      <div class="confetti-line">✦ ♡ ✦ 20 ✦ ♡ ✦</div>
+      <h2>Happy 20th Birthday, Maloka.</h2>
+      <p>10.05.2027 — بداية العشرينات، وبداية حكايات أكتر.</p>
+      <a href="index.html" class="btn ghost">ارجعي للرسالة السرية ♡</a>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="إغلاق">×</button>
+    <button class="lightbox-nav prev" type="button" aria-label="الصورة السابقة">‹</button>
+    <img id="lightboxImage" alt="صورة ملوكا بالحجم الكامل">
+    <div class="lightbox-index" id="lightboxIndex">01 / 20</div>
+    <button class="lightbox-nav next" type="button" aria-label="الصورة التالية">›</button>
+  </div>
+
+  <div class="music-player" data-audio="birthday-song.mp3">
+    <button class="music-btn" aria-label="تشغيل أو إيقاف الأغنية">▶</button>
+    <div class="music-copy">
+      <strong>أغنية عيد الميلاد</strong>
+      <span>اضغطي للتشغيل</span>
+    </div>
+    <div class="music-wave"><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+
+  <footer>
+    <span>20 سنة… وكل سنة وإنتِ ملوكا 🤍</span>
+    <span>10.05.2007 → 10.05.2027</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
