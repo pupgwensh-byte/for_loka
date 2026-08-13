@@ -20,3 +20,11 @@ MALOKA — 20TH BIRTHDAY WEBSITE
 بعدها Settings > Pages > Deploy from a branch > main / root.
 
 الصور مدمجة داخل الموقع، لذلك ستظهر على أي جهاز يفتح رابط GitHub Pages.
+
+
+FIXED IMAGE VERSION
+===================
+- The 20 birthday photos are embedded directly inside birthday.html as Base64.
+- This prevents broken image paths on GitHub Pages.
+- assets/photos is retained only as a backup.
+- Upload all root files normally. Even if the assets folder is missed, the gallery images inside birthday.html still render.
